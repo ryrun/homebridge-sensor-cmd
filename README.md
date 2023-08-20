@@ -1,9 +1,8 @@
 # homebridge-sensor-cmd
 
-[![mit license](https://badgen.net/badge/license/MIT/red)](https://github.com/apexad/homebridge-sensor-cmd/blob/master/LICENSE)
-[![npm](https://badgen.net/npm/v/homebridge-sensor-cmd)](https://www.npmjs.com/package/homebridge-sensor-cmd)
-[![npm](https://badgen.net/npm/dt/homebridge-sensor-cmd)](https://www.npmjs.com/package/homebridge-sensor-cmd)
-[![donate](https://badgen.net/badge/donate/paypal/91BE09)](https://www.paypal.me/apexadm)
+[![mit license](https://badgen.net/badge/license/MIT/red)](https://github.com/ryrun/homebridge-sensor-cmd/blob/master/LICENSE)
+
+Based on https://github.com/apexad/homebridge-sensor-cmd
 
 [Homebridge](https://github.com/homebridge/homebridge) plugin that is a proof of concept to create something functional in a ridiculously small amount of code (50 lines to be exaxt, also this README is just 25 lines).  
 It impliments a Contact/Motion/Occupancy Sensor that is triggered via the output of a command line/shell script.  
