@@ -11,21 +11,27 @@
           "required": true
         },
         "type": {
-            "title": "Sensor Type",
-            "type": "string",
-            "default": "Contact",
-            "oneOf": [
-              { "title": "Contact", "enum": ["contact"] },
-              { "title": "Motion", "enum": ["motion"] },
-              { "title": "Occupancy", "enum": ["occupancy"] }
-            ],
-            "required": true
-          },
-          "command": {
-            "title": "Command",
-            "type": "string",
-            "required": true
-          }
+          "title": "Sensor Type",
+          "type": "string",
+          "default": "Contact",
+          "oneOf": [
+            { "title": "Contact", "enum": ["contact"] },
+            { "title": "Motion", "enum": ["motion"] },
+            { "title": "Occupancy", "enum": ["occupancy"] },
+            { "title": "Light", "enum": ["light"] }
+          ],
+          "required": true
+        },
+        "command": {
+          "title": "Command",
+          "type": "string",
+          "required": true
+        },
+        "pollingrate" : {
+          "title": "Pollingrate",
+          "type": "number",
+          "placeholder": "5000"
+        }
       }
     },
     "form": null,
